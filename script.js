@@ -8,7 +8,13 @@ console.log('VUE OK', Vue);
 const { createApp } = Vue;
 
 //INIZIALIZZO L'APP VUE:
-const app = createApp();
+const app = createApp({
+    data() {
+        return {
+            h1Content: 'Bau Bau Micio Micio'
+        }
+    }
+});
 
 //LA MONTO NELL'ELEMENTO HTML RADICE:
 app.mount('#primoesercizio');
