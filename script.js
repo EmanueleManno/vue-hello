@@ -16,7 +16,7 @@ const app = createApp({
             picname: 'Gatto',
 
             h1Content2: 'GUARDA CHE BEL CANE',
-            pic2: 'https://www.dulacfarmaceutici.com/wp/wp-content/uploads/2022/11/cani-brachicefali.jpg',
+            pic2: 'img/cane.jpg',
             picname2: 'Cane'
         }
     }
