@@ -11,8 +11,13 @@ const { createApp } = Vue;
 const app = createApp({
     data() {
         return {
-            h1Content: 'Bau Bau Micio Micio',
-            pic: 'https://www.google.it/url?sa=i&url=https%3A%2F%2Fmypetmall.net%2Fblog%2Fpost%2Fil-gatto-europeo&psig=AOvVaw0PP9Y0VnyPIbmFQyeVuXL1&ust=1687005725020000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCKDpwpnox_8CFQAAAAAdAAAAABAE'
+            h1Content: 'GUARDA CHE BEL GATTO',
+            pic: 'https://www.ilverdemondo.it/public/blog/thumbs/gatto-siamese-it-000.jpg',
+            picname: 'Gatto',
+
+            h1Content2: 'GUARDA CHE BEL CANE',
+            pic2: 'https://www.dulacfarmaceutici.com/wp/wp-content/uploads/2022/11/cani-brachicefali.jpg',
+            picname2: 'Cane'
         }
     }
 });

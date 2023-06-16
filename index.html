@@ -20,11 +20,18 @@
 </head>
 <body>
     <!--Contenitore-->
-    <section class="container" id="primoesercizio">
+    <section class="container text-center" id="primoesercizio">
+
         <!--Il nostro amico H1-->
-        <h1> {{h1Content}} </h1>
+        <h1 class="p-3"> {{h1Content}} </h1>
         <!--Immagine-->
-        <img class="img-fluid" :src="pic">
+        <img class="img-fluid" :src="pic" :alt="picname">
+
+        <!--Un altro h1-->
+        <h1 class="p-3"> {{h1Content2}} </h1>
+         <!--Immagine 2-->
+         <img class="img-fluid" :src="pic2" :alt="picname2">
+
     </section>
 </body>
 </html>
